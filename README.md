@@ -13,7 +13,7 @@ pour récupérer ce qui a été fait par les autres : ```git pull```
 
 pour enregistrer vos modifications : ```git add .``` puis ```git commit -m "commentaire"```
 
-pour envoyer les modifications que vous avez commit : ```git push```
+pour envoyer les modifications que vous avez commit : ```git push``` (essayer de faire aussi un ```git pull``` avant de push pour éviter d'avoir des conflits)
 
 **Consignes** : https://rfp-technique.pages-gitlab.nsigma.fr/consigne/ 
 
