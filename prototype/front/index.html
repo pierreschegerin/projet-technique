@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Bon Coin - Petites annonces (Prototype)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- En-tête du site -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <span>leboncoin</span>
+        <span class="logo-badge">Prototype</span>
+      </a>
+
+      <div class="header-actions">
+        <a href="creer.html" class="btn btn-primary">
+          <span>+</span> Déposer une annonce
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <div class="page-header">
+      <div>
+        <h1 class="page-title">Toutes les annonces</h1>
+        <p class="page-subtitle" id="annoncesCount">Chargement...</p>
+      </div>
+    </div>
+
+    <!-- Conteneur dynamique où la liste des annonces sera injectée par js/liste.js -->
+    <div id="annoncesContainer">
+      <!-- Le contenu est généré dynamiquement en JavaScript -->
+    </div>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <p>Prototype technique minimaliste &bull; Référence pour équipe étudiante &bull; Node.js Express & Vanilla JS</p>
+  </footer>
+
+  <!-- Scripts JavaScript (séparation modulaire des responsabilités) -->
+  <script src="js/api.js"></script>
+  <script src="js/liste.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Déposer une annonce - Le Bon Coin</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- En-tête du site -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <span>leboncoin</span>
+        <span class="logo-badge">Prototype</span>
+      </a>
+
+      <div class="header-actions">
+        <a href="index.html" class="btn btn-outline">
+          &larr; Toutes les annonces
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <div class="form-wrapper">
+      <div style="margin-bottom: 24px;">
+        <h1 class="page-title">Déposer une annonce</h1>
+        <p class="page-subtitle">Renseignez les détails de votre bien pour le mettre en ligne immédiatement.</p>
+      </div>
+
+      <!-- Boîtes d'alertes pour le retour utilisateur -->
+      <div id="errorAlert" class="alert alert-error"></div>
+      <div id="successAlert" class="alert alert-success"></div>
+
+      <!-- Formulaire avec support d'upload de fichiers (enctype multipart/form-data) -->
+      <form id="annonceForm">
+        <!-- 1. Titre -->
+        <div class="form-group">
+          <label for="titreInput" class="form-label">
+            Titre de l'annonce <span class="required">*</span>
+          </label>
+          <input 
+            type="text" 
+            id="titreInput" 
+            name="titre" 
+            class="form-control" 
+            placeholder="Ex : Vélo vintage Peugeot, Guitare acoustique..." 
+            required 
+            maxlength="100"
+          />
+          <div class="form-hint">Un titre court et explicite facilite la découverte de votre bien.</div>
+        </div>
+
+        <!-- 2. Prix -->
+        <div class="form-group">
+          <label for="prixInput" class="form-label">
+            Prix (€) <span class="required">*</span>
+          </label>
+          <input 
+            type="number" 
+            id="prixInput" 
+            name="prix" 
+            class="form-control" 
+            placeholder="Ex : 45" 
+            min="0" 
+            step="1" 
+            required 
+          />
+          <div class="form-hint">Indiquez un prix entier ou 0 si vous donnez l'objet.</div>
+        </div>
+
+        <!-- 3. Description -->
+        <div class="form-group">
+          <label for="descriptionInput" class="form-label">
+            Description détaillée <span class="required">*</span>
+          </label>
+          <textarea 
+            id="descriptionInput" 
+            name="description" 
+            class="form-control" 
+            rows="6" 
+            placeholder="Décrivez l'état de l'objet, son fonctionnement, ses éventuels défauts, les accessoires fournis..." 
+            required
+          ></textarea>
+        </div>
+
+        <!-- 4. Photos (Upload et prévisualisation) -->
+        <div class="form-group">
+          <label class="form-label">
+            Photos de l'objet (jusqu'à 5 photos)
+          </label>
+          
+          <!-- Zone cliquable déclenchant l'input fichier caché -->
+          <label for="photosInput" class="upload-dropzone" style="display: block;">
+            <div class="upload-icon">📷</div>
+            <div class="upload-text-main">Cliquez ici pour sélectionner des photos</div>
+            <div class="upload-text-sub">Formats acceptés : JPG, PNG, WEBP, SVG (5 Mo max par photo)</div>
+          </label>
+          
+          <input 
+            type="file" 
+            id="photosInput" 
+            name="photos" 
+            multiple 
+            accept="image/*" 
+            style="display: none;" 
+          />
+
+          <!-- Grille où s'affichent les aperçus instantanés des images choisies -->
+          <div class="preview-grid" id="previewGrid"></div>
+        </div>
+
+        <!-- Bouton d'action -->
+        <div style="margin-top: 32px;">
+          <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 13px;">
+            Publier l'annonce
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <p>Prototype technique minimaliste &bull; Référence pour équipe étudiante &bull; Node.js Express & Vanilla JS</p>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="js/api.js"></script>
+  <script src="js/creer.js"></script>
+</body>
+</html>

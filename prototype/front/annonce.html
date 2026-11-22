@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Détail de l'annonce - Le Bon Coin</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- En-tête du site -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <span>leboncoin</span>
+        <span class="logo-badge">Prototype</span>
+      </a>
+
+      <div class="header-actions">
+        <a href="creer.html" class="btn btn-primary">
+          <span>+</span> Déposer une annonce
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <!-- Conteneur dynamique où le détail de l'annonce sera injecté par js/detail.js -->
+    <div id="detailContainer">
+      <div class="loading-indicator">
+        Chargement de l'annonce en cours...
+      </div>
+    </div>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <p>Prototype technique minimaliste &bull; Référence pour équipe étudiante &bull; Node.js Express & Vanilla JS</p>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="js/api.js"></script>
+  <script src="js/detail.js"></script>
+</body>
+</html>

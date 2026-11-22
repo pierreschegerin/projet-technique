@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "titre": "Vélo de course vintage Peugeot",
+    "description": "Superbe vélo de course Peugeot des années 80 en excellent état de conservation. Cadre en acier Reynolds, 10 vitesses, freins révisés et câblerie neuve. Guidoline en cuir marron neuve. Pneus Michelin neufs. Idéal pour les trajets vélotaf en ville ou les sorties cyclo le week-end.",
+    "prix": 150,
+    "photos": [
+      "/uploads/velo-1.svg",
+      "/uploads/velo-2.svg"
+    ],
+    "dateCreation": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "titre": "Guitare acoustique folk Yamaha F310",
+    "description": "Guitare acoustique folk Yamaha F310 finition naturelle. Très bon état, parfaite pour débutants ou musiciens confirmés recherchant une guitare de voyage fiable. Sonorités chaudes et équilibrées. Jeu de cordes d'Addario neuf. Vendue avec sa housse de transport molletonnée et son accordeur électronique.",
+    "prix": 85,
+    "photos": [
+      "/uploads/guitare-1.svg"
+    ],
+    "dateCreation": "2026-11-21T14:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "titre": "Console Nintendo Switch + 2 jeux",
+    "description": "Nintendo Switch modèle standard avec Joy-Cons bleu néon et rouge néon en excellent état esthétique et de fonctionnement (aucun problème de drift). Écran sous protection en verre trempé depuis l'achat. Livrée complète dans sa boîte d'origine avec le dock TV, chargeur officiel, support manette Joy-Con et 2 jeux en version cartouche : Zelda Breath of the Wild et Mario Kart 8 Deluxe.",
+    "prix": 210,
+    "photos": [
+      "/uploads/switch-1.svg",
+      "/uploads/switch-2.svg"
+    ],
+    "dateCreation": "2026-11-22T09:15:00.000Z"
+  },
+  {
+    "id": "1795355588263",
+    "titre": "Test",
+    "description": "ceci est un test",
+    "prix": 44,
+    "photos": [
+      "/uploads/1795355588256-tile_map_aquatique-16.jpg"
+    ],
+    "dateCreation": "2026-11-22T13:53:08.263Z"
+  }
+]

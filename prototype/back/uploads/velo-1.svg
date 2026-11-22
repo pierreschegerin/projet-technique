@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Ground shadow -->
+  <ellipse cx="400" cy="490" rx="320" ry="24" fill="#000000" opacity="0.12"/>
+  
+  <!-- Back Wheel -->
+  <circle cx="230" cy="420" r="95" stroke="#1f2937" stroke-width="12" fill="none"/>
+  <circle cx="230" cy="420" r="88" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  <!-- Spokes -->
+  <line x1="230" y1="325" x2="230" y2="515" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="135" y1="420" x2="325" y2="420" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="163" y1="353" x2="297" y2="487" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="163" y1="487" x2="297" y2="353" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="230" cy="420" r="14" fill="#4b5563"/>
+
+  <!-- Front Wheel -->
+  <circle cx="570" cy="420" r="95" stroke="#1f2937" stroke-width="12" fill="none"/>
+  <circle cx="570" cy="420" r="88" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  <!-- Spokes -->
+  <line x1="570" y1="325" x2="570" y2="515" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="475" y1="420" x2="665" y2="420" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="503" y1="353" x2="637" y2="487" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="503" y1="487" x2="637" y2="353" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="570" cy="420" r="14" fill="#4b5563"/>
+
+  <!-- Bike Frame (Diamond) -->
+  <!-- Bottom Bracket -->
+  <circle cx="370" cy="420" r="16" fill="#111827"/>
+  <!-- Chainstay: rear hub to bottom bracket -->
+  <line x1="230" y1="420" x2="370" y2="420" stroke="url(#frame)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Seatstay: rear hub to seat lug -->
+  <line x1="230" y1="420" x2="330" y2="280" stroke="url(#frame)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Seat tube: bottom bracket to seat lug -->
+  <line x1="370" y1="420" x2="330" y2="280" stroke="url(#frame)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Down tube: bottom bracket to head tube -->
+  <line x1="370" y1="420" x2="515" y2="270" stroke="url(#frame)" stroke-width="11" stroke-linecap="round"/>
+  <!-- Top tube: seat lug to head tube -->
+  <line x1="330" y1="280" x2="515" y2="270" stroke="url(#frame)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Head tube -->
+  <line x1="515" y1="255" x2="525" y2="305" stroke="url(#frame)" stroke-width="12" stroke-linecap="round"/>
+  <!-- Fork: head tube to front hub -->
+  <line x1="525" y1="305" x2="570" y2="420" stroke="#9ca3af" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Seat post & Saddle -->
+  <line x1="330" y1="280" x2="320" y2="245" stroke="#9ca3af" stroke-width="7"/>
+  <path d="M285,245 C310,240 345,242 355,250 C345,255 315,252 285,245 Z" fill="#854d0e" stroke="#713f12" stroke-width="3"/>
+
+  <!-- Stem & Handlebars (Drop bars) -->
+  <line x1="515" y1="255" x2="510" y2="230" stroke="#9ca3af" stroke-width="7"/>
+  <path d="M510,230 L530,230 C545,230 555,245 545,265 C540,275 525,275 520,270" fill="none" stroke="#854d0e" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Pedals and crank -->
+  <line x1="370" y1="420" x2="395" y2="455" stroke="#9ca3af" stroke-width="6" stroke-linecap="round"/>
+  <line x1="385" y1="455" x2="405" y2="455" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Badge / Label -->
+  <rect x="30" y="30" width="220" height="42" rx="21" fill="#ffffff" opacity="0.95"/>
+  <text x="140" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#0284c7" text-anchor="middle">PEUGEOT VINTAGE</text>
+</svg>

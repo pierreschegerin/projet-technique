@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  
+  <!-- Zoom handlebars & levers detail -->
+  <circle cx="400" cy="300" r="230" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  
+  <!-- Head tube and fork top -->
+  <rect x="385" y="270" width="30" height="200" rx="6" fill="#0284c7"/>
+  <!-- Stem -->
+  <path d="M400,270 L400,190 L450,190" fill="none" stroke="#94a3b8" stroke-width="22" stroke-linecap="round"/>
+  <!-- Drop bars -->
+  <path d="M450,190 C500,190 530,230 510,280 C490,320 440,310 430,300" fill="none" stroke="#854d0e" stroke-width="20" stroke-linecap="round"/>
+  <!-- Brake lever -->
+  <path d="M500,230 L520,310" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <!-- Peugeot Lion Crest Badge -->
+  <circle cx="400" cy="340" r="22" fill="#eab308"/>
+  <text x="400" y="347" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">🦁</text>
+
+  <!-- Badge / Label -->
+  <rect x="30" y="30" width="220" height="42" rx="21" fill="#ffffff" opacity="0.95"/>
+  <text x="140" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold" fill="#334155" text-anchor="middle">GUIDON &amp; DÉTAILS</text>
+</svg>
