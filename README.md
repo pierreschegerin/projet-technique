@@ -15,6 +15,8 @@ pour enregistrer vos modifications : ```git add .``` puis ```git commit -m "comm
 
 pour envoyer les modifications que vous avez commit : ```git push```
 
+**Consignes** : https://rfp-technique.pages-gitlab.nsigma.fr/consigne/ 
+
 ## Explication : 
 Le but de ce projet est de réaliser un site de petites annonces inspiré du Bon Coin.
 
