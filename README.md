@@ -1,6 +1,21 @@
 # Projet Technique 
+Créez un dossier sur votre pc pour stocker le projet.
 
-## Expliquation : 
+Dans un terminal, ajoutez vos identifiants avec : 
+
+```git config --global user.name "nom"```
+
+```git config --global user.email "adressemail"```
+
+Ensuite clonez le projet : ```git clone https://github.com/pierreschegerin/projet-technique``` puis ```cd projet-technique``` 
+
+pour récupérer ce qui a été fait par les autres : ```git pull```
+
+pour enregistrer vos modifications : ```git add .``` puis ```git commit -m "commentaire"```
+
+pour envoyer les modifications que vous avez commit : ```git push```
+
+## Explication : 
 Le but de ce projet est de réaliser un site de petites annonces inspiré du Bon Coin.
 
 ## Membres du groupe :
