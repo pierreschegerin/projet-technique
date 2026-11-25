@@ -26,7 +26,7 @@ Le but de ce projet est de réaliser un site de petites annonces inspiré du Bon
 - Nicolas Barthelemy
 - Pierre Schegerin
 
-## Accès au site : 
+## Accès au site (front end uniquement): 
 https://pierreschegerin.github.io/projet-technique/projet/index.html
 
 
